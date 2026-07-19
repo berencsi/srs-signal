@@ -49,12 +49,14 @@ python -m pip install -e .
 .venv/bin/streamlit run streamlit_app.py
 ```
 
-## Intellectual property
+## Licence and intellectual property
 
-Copyright © 2026 Béla Berencsi. All rights reserved.
+Copyright © 2026 Béla Berencsi.
 
-This repository is not released under an open-source licence. Public access
-does not grant general permission to copy, modify, redistribute, sublicense, or
-commercially exploit its contents.
+The source code in this repository is licensed under the GNU Affero General
+Public License v3.0 only (`AGPL-3.0-only`). See the [LICENSE](LICENSE) file.
+
+The SRS Signal name and branding, and research publications not contained in
+this repository, are not licensed under the AGPL.
 
 SRS Signal is part of the Self-Reflective Society Research Programme.
