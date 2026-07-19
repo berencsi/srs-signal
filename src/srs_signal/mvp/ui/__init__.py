@@ -6,10 +6,10 @@ import streamlit as st
 
 
 _APP_TITLE = "SRS Signal"
-_APP_SUBTITLE = "An AI Early-Warning System for Systemic Institutional Dysfunction"
+_APP_SUBTITLE = "An Early-Warning System for Systemic Institutional Dysfunction"
 _CORE_STATEMENT = (
-    "We do not ask AI whether a system is democratic. We measure whether public "
-    "power can explain, document and correct itself."
+    "We do not ask an AI model to decide whether a system is democratic. "
+    "We examine whether public power can explain, document, and correct itself."
 )
 _LIMITATION_NOTICE = (
     "This research prototype will display prototype audit signals, not legal "
