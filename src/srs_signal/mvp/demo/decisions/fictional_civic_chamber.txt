@@ -1,0 +1,35 @@
+FICTIONAL DEMONSTRATION DECISION
+
+This document is wholly fictional. It was created only for the SRS Signal research-prototype demonstration. It does not describe a real person, institution, proceeding, or event.
+
+Issuing institution: Fictional Civic Chamber
+Institution type supplied by fixture: court
+Decision title: Review of a fictional access request
+
+1. Material considered
+
+The Chamber relied on the submitted request, the response record, the dated notice, and the applicant's written observations; each item is listed in the attached source register.
+
+2. Decision basis
+
+This decision applies only the fictional Demonstration Procedure Rule and its stated criteria of clarity, necessity, and proportional response.
+
+3. Reasoning
+
+The request was sufficiently clear, the response record showed a documented delay, and a narrower corrective direction addressed that delay without changing unrelated arrangements.
+
+4. Counterargument
+
+The applicant argued that a complete replacement direction was necessary. The Chamber rejects that proposal because the documented delay concerns only one response step and the source register records no defect in the remaining steps.
+
+5. Effects
+
+The direction requires a new response within ten fictional working days and leaves every other fictional arrangement unchanged; these limited effects match the identified delay.
+
+6. Correction and review
+
+A written reconsideration request may be submitted to the Chamber within twenty fictional working days, and the Chamber must issue a reasoned response identifying any correction made.
+
+7. Disposition
+
+For the reasons stated above, the Chamber issues the limited corrective direction. The source register, stated rule, reasoning steps, counterargument response, effects, and correction route are all recorded in this document.

@@ -1,0 +1,35 @@
+FICTIONAL DEMONSTRATION DECISION
+
+This document is wholly fictional. It was created only for the SRS Signal research-prototype demonstration. It does not describe a real person, institution, proceeding, or event.
+
+Issuing institution: Fictional Review Board
+Institution type supplied by fixture: supervisory or review body
+Decision title: Review of a fictional allocation decision
+
+1. Material considered
+
+The Board identifies the original allocation note, the review request, and the response memorandum as the three materials considered.
+
+2. Decision basis
+
+The Board refers to a fictional fairness standard and identifies consistency and documented need as relevant criteria, but it does not define how the criteria are weighted.
+
+3. Reasoning
+
+The response memorandum supports one concern and the allocation note supports another; the Board states that both concerns together justify retaining the allocation, without explaining their relative importance.
+
+4. Counterargument
+
+The review request argued that a temporary adjustment would address the documented concern. The Board notes the proposal but gives no reason for rejecting it.
+
+5. Effects
+
+The Board expressly states that it made no assessment of the practical effects of retaining the fictional allocation.
+
+6. Correction and review
+
+The decision identifies no further review route, correction process, or timetable in the supplied document.
+
+7. Disposition
+
+The original fictional allocation is retained. The Board records its sources and conclusion, but the counterargument response, effects analysis, and correction route remain materially incomplete.

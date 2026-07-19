@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.0",
+  "analysis_id": "10000000-0000-4000-8000-000000000001",
+  "analysis_timestamp": "2026-07-18T10:00:00Z",
+  "provider_type": "deterministic_demo",
+  "model_identifier": "srs-signal-deterministic-demo-v1",
+  "methodology_version": "srs-signal-methodology-v1",
+  "prompt_version": "stored-demo-analysis-v1",
+  "decision_metadata": {
+    "decision_id": "fictional-civic-chamber",
+    "title": "Review of a fictional access request",
+    "institution_name": "Fictional Civic Chamber",
+    "institution_type": "court",
+    "decision_type": "fictional review decision",
+    "jurisdiction_or_domain": "wholly fictional demonstration domain",
+    "decision_date": "2026-07-01",
+    "source_type": "wholly fictional demonstration decision",
+    "contextual_note": "Created only for the SRS Signal research-prototype demonstration; no real case or institution is represented."
+  },
+  "analysis_status": "completed",
+  "dimension_findings": [
+    {
+      "finding_id": "11000000-0000-4000-8000-000000000001",
+      "dimension_id": "source_traceability",
+      "dimension_name": "Source traceability",
+      "assessment_performed": true,
+      "score": 4,
+      "status": "clearly_identifiable",
+      "concise_finding": "The relied-on materials are explicitly enumerated and tied to a source register.",
+      "reasoning": "The supplied decision lists four material categories and states where the itemized record appears, making the visible source basis reconstructable.",
+      "supporting_quotations": [
+        {
+          "quote_id": "civic-source-1",
+          "text": "The Chamber relied on the submitted request, the response record, the dated notice, and the applicant's written observations; each item is listed in the attached source register.",
+          "reported_document_location": "Section 1 — reported location, not independently verified",
+          "character_start": 381,
+          "character_end": 559
+        }
+      ],
+      "confidence": "high",
+      "limitations": [],
+      "identified_missing_elements": [],
+      "deficiency_types": []
+    },
+    {
+      "finding_id": "11000000-0000-4000-8000-000000000002",
+      "dimension_id": "legal_basis_specificity",
+      "dimension_name": "Legal-basis specificity",
+      "assessment_performed": true,
+      "score": 4,
+      "status": "clearly_identifiable",
+      "concise_finding": "The fictional rule and the criteria applied are stated specifically.",
+      "reasoning": "The audit object names its fictional procedural basis and identifies the three criteria used, without requiring an outside legal conclusion.",
+      "supporting_quotations": [
+        {
+          "quote_id": "civic-basis-1",
+          "text": "This decision applies only the fictional Demonstration Procedure Rule and its stated criteria of clarity, necessity, and proportional response.",
+          "reported_document_location": "Section 2 — reported location, not independently verified",
+          "character_start": 580,
+          "character_end": 723
+        }
+      ],
+      "confidence": "high",
+      "limitations": ["The named rule is wholly fictional and is assessed only as text in the supplied audit object."],
+      "identified_missing_elements": [],
+      "deficiency_types": []
+    },
+    {
+      "finding_id": "11000000-0000-4000-8000-000000000003",
+      "dimension_id": "reasoning_chain_completeness",
+      "dimension_name": "Reasoning-chain completeness",
+      "assessment_performed": true,
+      "score": 4,
+      "status": "clearly_identifiable",
+      "concise_finding": "The decision connects the documented facts to a limited corrective response.",
+      "reasoning": "The visible chain moves from clarity and recorded delay to the scope of the corrective direction and explains why unrelated arrangements remain untouched.",
+      "supporting_quotations": [
+        {
+          "quote_id": "civic-reasoning-1",
+          "text": "The request was sufficiently clear, the response record showed a documented delay, and a narrower corrective direction addressed that delay without changing unrelated arrangements.",
+          "reported_document_location": "Section 3 — reported location, not independently verified",
+          "character_start": 739,
+          "character_end": 919
+        }
+      ],
+      "confidence": "high",
+      "limitations": [],
+      "identified_missing_elements": [],
+      "deficiency_types": []
+    },
+    {
+      "finding_id": "11000000-0000-4000-8000-000000000004",
+      "dimension_id": "counterargument_handling",
+      "dimension_name": "Counterargument handling",
+      "assessment_performed": true,
+      "score": 3,
+      "status": "clearly_identifiable",
+      "concise_finding": "The principal alternative proposal is recorded and answered.",
+      "reasoning": "The decision identifies the requested replacement direction and gives a source-linked reason for choosing the narrower response.",
+      "supporting_quotations": [
+        {
+          "quote_id": "civic-counterargument-1",
+          "text": "The applicant argued that a complete replacement direction was necessary. The Chamber rejects that proposal because the documented delay concerns only one response step and the source register records no defect in the remaining steps.",
+          "reported_document_location": "Section 4 — reported location, not independently verified",
+          "character_start": 941,
+          "character_end": 1175
+        }
+      ],
+      "confidence": "high",
+      "limitations": ["Only the counterargument visible in the supplied fictional decision can be audited."],
+      "identified_missing_elements": [],
+      "deficiency_types": []
+    },
+    {
+      "finding_id": "11000000-0000-4000-8000-000000000005",
+      "dimension_id": "decision_effect_justification",
+      "dimension_name": "Decision-effect justification",
+      "assessment_performed": true,
+      "score": 3,
+      "status": "clearly_identifiable",
+      "concise_finding": "The immediate effects and their relationship to the identified delay are stated.",
+      "reasoning": "The direction's timing and limited scope are visible, and the text connects those effects to the documented problem.",
+      "supporting_quotations": [
+        {
+          "quote_id": "civic-effects-1",
+          "text": "The direction requires a new response within ten fictional working days and leaves every other fictional arrangement unchanged; these limited effects match the identified delay.",
+          "reported_document_location": "Section 5 — reported location, not independently verified",
+          "character_start": 1189,
+          "character_end": 1366
+        }
+      ],
+      "confidence": "high",
+      "limitations": ["Longer-term effects are not discussed in the supplied fictional text."],
+      "identified_missing_elements": ["Longer-term effect assessment"],
+      "deficiency_types": []
+    },
+    {
+      "finding_id": "11000000-0000-4000-8000-000000000006",
+      "dimension_id": "correction_capacity",
+      "dimension_name": "Correction capacity",
+      "assessment_performed": true,
+      "score": 4,
+      "status": "clearly_identifiable",
+      "concise_finding": "A timed reconsideration route and reasoned correction response are explicit.",
+      "reasoning": "The supplied text identifies how and when reconsideration may be requested and what response the Chamber must provide.",
+      "supporting_quotations": [
+        {
+          "quote_id": "civic-correction-1",
+          "text": "A written reconsideration request may be submitted to the Chamber within twenty fictional working days, and the Chamber must issue a reasoned response identifying any correction made.",
+          "reported_document_location": "Section 6 — reported location, not independently verified",
+          "character_start": 1394,
+          "character_end": 1577
+        }
+      ],
+      "confidence": "high",
+      "limitations": [],
+      "identified_missing_elements": [],
+      "deficiency_types": []
+    },
+    {
+      "finding_id": "11000000-0000-4000-8000-000000000007",
+      "dimension_id": "overall_auditability",
+      "dimension_name": "Overall auditability",
+      "assessment_performed": true,
+      "score": 4,
+      "status": "clearly_identifiable",
+      "concise_finding": "The supplied decision is independently assessed as highly reconstructable overall.",
+      "reasoning": "This independent seventh-dimension assessment finds the source register, basis, reasoning, response, effects, and correction route coherently visible in the audit object; it is not an average of the other scores.",
+      "supporting_quotations": [
+        {
+          "quote_id": "civic-overall-1",
+          "text": "The source register, stated rule, reasoning steps, counterargument response, effects, and correction route are all recorded in this document.",
+          "reported_document_location": "Section 7 — reported location, not independently verified",
+          "character_start": 1678,
+          "character_end": 1819
+        }
+      ],
+      "confidence": "high",
+      "limitations": ["The result concerns only this wholly fictional supplied text and does not establish legal validity."],
+      "identified_missing_elements": [],
+      "deficiency_types": []
+    }
+  ],
+  "overall_limitations": [
+    "This audit assesses only a wholly fictional demonstration text.",
+    "It does not determine legal correctness, validity, or democratic character."
+  ],
+  "insufficiency_reasons": [],
+  "reviewer_status": "pending_review"
+}

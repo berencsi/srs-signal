@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.0",
+  "analysis_id": "20000000-0000-4000-8000-000000000001",
+  "analysis_timestamp": "2026-07-18T10:05:00Z",
+  "provider_type": "deterministic_demo",
+  "model_identifier": "srs-signal-deterministic-demo-v1",
+  "methodology_version": "srs-signal-methodology-v1",
+  "prompt_version": "stored-demo-analysis-v1",
+  "decision_metadata": {
+    "decision_id": "fictional-services-authority",
+    "title": "Fictional service-permission decision",
+    "institution_name": "Fictional Services Authority",
+    "institution_type": "administrative_authority",
+    "decision_type": "fictional permission decision",
+    "jurisdiction_or_domain": "wholly fictional demonstration domain",
+    "decision_date": "2026-07-02",
+    "source_type": "wholly fictional demonstration decision",
+    "contextual_note": "Created only for the SRS Signal research-prototype demonstration; no real case or institution is represented."
+  },
+  "analysis_status": "completed",
+  "dimension_findings": [
+    {
+      "finding_id": "21000000-0000-4000-8000-000000000001",
+      "dimension_id": "source_traceability",
+      "dimension_name": "Source traceability",
+      "assessment_performed": true,
+      "score": 2,
+      "status": "partially_identifiable",
+      "concise_finding": "A general application record is mentioned, but its individual sources are not identified.",
+      "reasoning": "The text confirms that a record was reviewed while leaving the documents within it unreconstructable from the supplied audit object.",
+      "supporting_quotations": [
+        {
+          "quote_id": "services-source-1",
+          "text": "The Authority states that it reviewed the application record, but it does not identify the individual documents within that record.",
+          "reported_document_location": "Section 1 — reported location, not independently verified",
+          "character_start": 406,
+          "character_end": 537
+        }
+      ],
+      "confidence": "high",
+      "limitations": ["The audit cannot determine what an unlisted record contained."],
+      "identified_missing_elements": ["Itemized source list"],
+      "deficiency_types": ["unclear source traceability"]
+    },
+    {
+      "finding_id": "21000000-0000-4000-8000-000000000002",
+      "dimension_id": "legal_basis_specificity",
+      "dimension_name": "Legal-basis specificity",
+      "assessment_performed": true,
+      "score": 1,
+      "status": "partially_identifiable",
+      "concise_finding": "The basis is generic and does not identify an operative fictional rule or criterion.",
+      "reasoning": "A category of fictional rules is visible, but the supplied decision affirmatively says that no rule, criterion, or provision is identified.",
+      "supporting_quotations": [
+        {
+          "quote_id": "services-basis-1",
+          "text": "The governing basis is described only as the applicable fictional service rules; no rule, criterion, or operative provision is identified.",
+          "reported_document_location": "Section 2 — reported location, not independently verified",
+          "character_start": 558,
+          "character_end": 696
+        }
+      ],
+      "confidence": "high",
+      "limitations": ["No outside legal basis is inferred or assessed."],
+      "identified_missing_elements": ["Specific operative basis", "Decision criterion"],
+      "deficiency_types": ["generic legal-basis explanation"]
+    },
+    {
+      "finding_id": "21000000-0000-4000-8000-000000000003",
+      "dimension_id": "reasoning_chain_completeness",
+      "dimension_name": "Reasoning-chain completeness",
+      "assessment_performed": true,
+      "score": 1,
+      "status": "partially_identifiable",
+      "concise_finding": "A conclusion and unspecified concerns are visible, but the intermediate reasoning chain is severely limited.",
+      "reasoning": "The decision supplies an outcome label without connecting a concern to a source, criterion, or intermediate inference.",
+      "supporting_quotations": [
+        {
+          "quote_id": "services-reasoning-1",
+          "text": "The Authority concludes that the request is unsuitable because concerns remain, but the decision does not connect any stated concern to a source, criterion, or intermediate reasoning step.",
+          "reported_document_location": "Section 3 — reported location, not independently verified",
+          "character_start": 712,
+          "character_end": 900
+        }
+      ],
+      "confidence": "high",
+      "limitations": [],
+      "identified_missing_elements": ["Source-to-concern link", "Criterion application", "Intermediate reasoning"],
+      "deficiency_types": ["incomplete reasoning chain"]
+    },
+    {
+      "finding_id": "21000000-0000-4000-8000-000000000004",
+      "dimension_id": "counterargument_handling",
+      "dimension_name": "Counterargument handling",
+      "assessment_performed": true,
+      "score": 0,
+      "status": "demonstrably_absent",
+      "concise_finding": "The supplied decision affirmatively records that the alternative proposal received no response.",
+      "reasoning": "This is classified as demonstrably absent because the audit object explicitly states that no response was provided, rather than merely failing to reveal one.",
+      "supporting_quotations": [
+        {
+          "quote_id": "services-counterargument-1",
+          "text": "The Authority provides no response to that alternative proposal.",
+          "reported_document_location": "Section 4 — reported location, not independently verified",
+          "character_start": 997,
+          "character_end": 1061
+        }
+      ],
+      "confidence": "high",
+      "limitations": ["The finding concerns only the response recorded in this fictional supplied text."],
+      "identified_missing_elements": ["Response to the recorded alternative proposal"],
+      "deficiency_types": ["ignored counterargument"]
+    },
+    {
+      "finding_id": "21000000-0000-4000-8000-000000000005",
+      "dimension_id": "decision_effect_justification",
+      "dimension_name": "Decision-effect justification",
+      "assessment_performed": true,
+      "score": 0,
+      "status": "demonstrably_absent",
+      "concise_finding": "The decision affirmatively states that expected effects were not assessed or recorded.",
+      "reasoning": "The supplied text directly demonstrates absence of an expected-effect assessment for the refusal; this is not inferred from silence.",
+      "supporting_quotations": [
+        {
+          "quote_id": "services-effects-1",
+          "text": "The Authority did not assess or record any expected effect of refusing the fictional service permission.",
+          "reported_document_location": "Section 5 — reported location, not independently verified",
+          "character_start": 1075,
+          "character_end": 1179
+        }
+      ],
+      "confidence": "high",
+      "limitations": [],
+      "identified_missing_elements": ["Expected-effect assessment", "Effect justification"],
+      "deficiency_types": ["unexplained decision effects"]
+    },
+    {
+      "finding_id": "21000000-0000-4000-8000-000000000006",
+      "dimension_id": "correction_capacity",
+      "dimension_name": "Correction capacity",
+      "assessment_performed": true,
+      "score": 2,
+      "status": "partially_identifiable",
+      "concise_finding": "A clarification route is mentioned, but timing and corrective effect are unclear.",
+      "reasoning": "The route can be identified only in part because the decision omits a deadline and does not say whether correction is possible.",
+      "supporting_quotations": [
+        {
+          "quote_id": "services-correction-1",
+          "text": "The decision states that a written clarification may be requested, but it gives no time limit and does not explain whether the outcome may be corrected.",
+          "reported_document_location": "Section 6 — reported location, not independently verified",
+          "character_start": 1207,
+          "character_end": 1359
+        }
+      ],
+      "confidence": "high",
+      "limitations": [],
+      "identified_missing_elements": ["Clarification deadline", "Corrective authority"],
+      "deficiency_types": ["unclear correction mechanism"]
+    },
+    {
+      "finding_id": "21000000-0000-4000-8000-000000000007",
+      "dimension_id": "overall_auditability",
+      "dimension_name": "Overall auditability",
+      "assessment_performed": true,
+      "score": 1,
+      "status": "partially_identifiable",
+      "concise_finding": "The outcome is visible, but the supplied decision is independently assessed as severely limited in overall reconstructability.",
+      "reasoning": "This independent seventh-dimension finding reflects the document's own statement that no additional reasons or annexes exist alongside the visible source, basis, reasoning, response, effects, and correction limitations; it is not an average.",
+      "supporting_quotations": [
+        {
+          "quote_id": "services-overall-1",
+          "text": "The decision is complete as issued and contains no additional reasons or annexes.",
+          "reported_document_location": "Section 7 — reported location, not independently verified",
+          "character_start": 1422,
+          "character_end": 1503
+        }
+      ],
+      "confidence": "high",
+      "limitations": ["The audit assesses only the wholly fictional supplied decision."],
+      "identified_missing_elements": ["Additional source detail", "Specific basis", "Complete reasoning", "Effect assessment"],
+      "deficiency_types": ["weak overall auditability"]
+    }
+  ],
+  "overall_limitations": [
+    "This audit assesses only a wholly fictional demonstration text.",
+    "The findings describe documentation and reconstructability, not legality or validity."
+  ],
+  "insufficiency_reasons": [],
+  "reviewer_status": "pending_review"
+}

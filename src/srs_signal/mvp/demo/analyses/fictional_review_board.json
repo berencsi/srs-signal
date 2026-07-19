@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.0",
+  "analysis_id": "30000000-0000-4000-8000-000000000001",
+  "analysis_timestamp": "2026-07-18T10:10:00Z",
+  "provider_type": "deterministic_demo",
+  "model_identifier": "srs-signal-deterministic-demo-v1",
+  "methodology_version": "srs-signal-methodology-v1",
+  "prompt_version": "stored-demo-analysis-v1",
+  "decision_metadata": {
+    "decision_id": "fictional-review-board",
+    "title": "Review of a fictional allocation decision",
+    "institution_name": "Fictional Review Board",
+    "institution_type": "supervisory_or_review_body",
+    "decision_type": "fictional supervisory review decision",
+    "jurisdiction_or_domain": "wholly fictional demonstration domain",
+    "decision_date": "2026-07-03",
+    "source_type": "wholly fictional demonstration decision",
+    "contextual_note": "Created only for the SRS Signal research-prototype demonstration; no real case or institution is represented."
+  },
+  "analysis_status": "completed",
+  "dimension_findings": [
+    {
+      "finding_id": "31000000-0000-4000-8000-000000000001",
+      "dimension_id": "source_traceability",
+      "dimension_name": "Source traceability",
+      "assessment_performed": true,
+      "score": 3,
+      "status": "clearly_identifiable",
+      "concise_finding": "The three materials considered are specifically identified.",
+      "reasoning": "The supplied decision enumerates the original note, review request, and response memorandum, permitting substantial reconstruction of the visible source set.",
+      "supporting_quotations": [
+        {
+          "quote_id": "board-source-1",
+          "text": "The Board identifies the original allocation note, the review request, and the response memorandum as the three materials considered.",
+          "reported_document_location": "Section 1 — reported location, not independently verified",
+          "character_start": 406,
+          "character_end": 539
+        }
+      ],
+      "confidence": "high",
+      "limitations": ["The contents of the three fictional materials are not reproduced in full."],
+      "identified_missing_elements": [],
+      "deficiency_types": []
+    },
+    {
+      "finding_id": "31000000-0000-4000-8000-000000000002",
+      "dimension_id": "legal_basis_specificity",
+      "dimension_name": "Legal-basis specificity",
+      "assessment_performed": true,
+      "score": 2,
+      "status": "partially_identifiable",
+      "concise_finding": "A fictional standard and two criteria are visible, but their application method is incomplete.",
+      "reasoning": "The text identifies consistency and documented need but does not explain how those criteria are weighted.",
+      "supporting_quotations": [
+        {
+          "quote_id": "board-basis-1",
+          "text": "The Board refers to a fictional fairness standard and identifies consistency and documented need as relevant criteria, but it does not define how the criteria are weighted.",
+          "reported_document_location": "Section 2 — reported location, not independently verified",
+          "character_start": 560,
+          "character_end": 732
+        }
+      ],
+      "confidence": "high",
+      "limitations": ["The audit makes no outside conclusion about the fictional standard."],
+      "identified_missing_elements": ["Criterion weighting method"],
+      "deficiency_types": ["incomplete basis application"]
+    },
+    {
+      "finding_id": "31000000-0000-4000-8000-000000000003",
+      "dimension_id": "reasoning_chain_completeness",
+      "dimension_name": "Reasoning-chain completeness",
+      "assessment_performed": true,
+      "score": 2,
+      "status": "partially_identifiable",
+      "concise_finding": "Sources and a combined conclusion are visible, but the relative reasoning weight is omitted.",
+      "reasoning": "The decision connects two materials to two concerns and then to retention, while leaving the relative importance of those concerns unexplained.",
+      "supporting_quotations": [
+        {
+          "quote_id": "board-reasoning-1",
+          "text": "The response memorandum supports one concern and the allocation note supports another; the Board states that both concerns together justify retaining the allocation, without explaining their relative importance.",
+          "reported_document_location": "Section 3 — reported location, not independently verified",
+          "character_start": 748,
+          "character_end": 959
+        }
+      ],
+      "confidence": "high",
+      "limitations": [],
+      "identified_missing_elements": ["Relative weighting of concerns"],
+      "deficiency_types": ["incomplete reasoning chain"]
+    },
+    {
+      "finding_id": "31000000-0000-4000-8000-000000000004",
+      "dimension_id": "counterargument_handling",
+      "dimension_name": "Counterargument handling",
+      "assessment_performed": true,
+      "score": 1,
+      "status": "partially_identifiable",
+      "concise_finding": "The alternative is acknowledged, but no reason for rejecting it is supplied.",
+      "reasoning": "The document makes the counterproposal identifiable while leaving the response rationale severely limited.",
+      "supporting_quotations": [
+        {
+          "quote_id": "board-counterargument-1",
+          "text": "The Board notes the proposal but gives no reason for rejecting it.",
+          "reported_document_location": "Section 4 — reported location, not independently verified",
+          "character_start": 1073,
+          "character_end": 1139
+        }
+      ],
+      "confidence": "high",
+      "limitations": ["The text does not affirmatively state that no consideration occurred outside the supplied document."],
+      "identified_missing_elements": ["Reasoned response to temporary adjustment proposal"],
+      "deficiency_types": ["unanswered counterargument"]
+    },
+    {
+      "finding_id": "31000000-0000-4000-8000-000000000005",
+      "dimension_id": "decision_effect_justification",
+      "dimension_name": "Decision-effect justification",
+      "assessment_performed": true,
+      "score": 0,
+      "status": "demonstrably_absent",
+      "concise_finding": "The Board affirmatively states that it made no practical-effects assessment.",
+      "reasoning": "The audit object directly demonstrates absence of an effects assessment for retaining the allocation; absence is not inferred from silence.",
+      "supporting_quotations": [
+        {
+          "quote_id": "board-effects-1",
+          "text": "The Board expressly states that it made no assessment of the practical effects of retaining the fictional allocation.",
+          "reported_document_location": "Section 5 — reported location, not independently verified",
+          "character_start": 1153,
+          "character_end": 1270
+        }
+      ],
+      "confidence": "high",
+      "limitations": [],
+      "identified_missing_elements": ["Practical-effects assessment", "Effect justification"],
+      "deficiency_types": ["unexplained decision effects"]
+    },
+    {
+      "finding_id": "31000000-0000-4000-8000-000000000006",
+      "dimension_id": "correction_capacity",
+      "dimension_name": "Correction capacity",
+      "assessment_performed": true,
+      "score": 0,
+      "status": "demonstrably_absent",
+      "concise_finding": "The supplied decision affirmatively identifies no review route, correction process, or timetable.",
+      "reasoning": "The wording directly establishes absence of the listed correction mechanisms in this supplied decision.",
+      "supporting_quotations": [
+        {
+          "quote_id": "board-correction-1",
+          "text": "The decision identifies no further review route, correction process, or timetable in the supplied document.",
+          "reported_document_location": "Section 6 — reported location, not independently verified",
+          "character_start": 1298,
+          "character_end": 1405
+        }
+      ],
+      "confidence": "high",
+      "limitations": ["The finding concerns the supplied document and does not prove that no external route exists."],
+      "identified_missing_elements": ["Review route", "Correction process", "Correction timetable"],
+      "deficiency_types": ["absent correction mechanism"]
+    },
+    {
+      "finding_id": "31000000-0000-4000-8000-000000000007",
+      "dimension_id": "overall_auditability",
+      "dimension_name": "Overall auditability",
+      "assessment_performed": true,
+      "score": 1,
+      "status": "partially_identifiable",
+      "concise_finding": "The supplied decision is independently assessed as severely limited overall despite identifiable sources and a conclusion.",
+      "reasoning": "This independent seventh-dimension assessment relies on the document's explicit summary of materially incomplete response, effects, and correction information; it is not calculated from the first six scores.",
+      "supporting_quotations": [
+        {
+          "quote_id": "board-overall-1",
+          "text": "The Board records its sources and conclusion, but the counterargument response, effects analysis, and correction route remain materially incomplete.",
+          "reported_document_location": "Section 7 — reported location, not independently verified",
+          "character_start": 1470,
+          "character_end": 1618
+        }
+      ],
+      "confidence": "high",
+      "limitations": ["The audit assesses only the wholly fictional supplied decision."],
+      "identified_missing_elements": ["Complete counterargument response", "Effects analysis", "Correction route"],
+      "deficiency_types": ["weak overall auditability"]
+    }
+  ],
+  "overall_limitations": [
+    "This audit assesses only a wholly fictional demonstration text.",
+    "It does not establish whether any real review system is effective or lawful."
+  ],
+  "insufficiency_reasons": [],
+  "reviewer_status": "pending_review"
+}

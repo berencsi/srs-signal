@@ -1,0 +1,35 @@
+FICTIONAL DEMONSTRATION DECISION
+
+This document is wholly fictional. It was created only for the SRS Signal research-prototype demonstration. It does not describe a real person, institution, proceeding, or event.
+
+Issuing institution: Fictional Services Authority
+Institution type supplied by fixture: administrative authority
+Decision title: Fictional service-permission decision
+
+1. Material considered
+
+The Authority states that it reviewed the application record, but it does not identify the individual documents within that record.
+
+2. Decision basis
+
+The governing basis is described only as the applicable fictional service rules; no rule, criterion, or operative provision is identified.
+
+3. Reasoning
+
+The Authority concludes that the request is unsuitable because concerns remain, but the decision does not connect any stated concern to a source, criterion, or intermediate reasoning step.
+
+4. Counterargument
+
+The decision records that an alternative limited arrangement was proposed. The Authority provides no response to that alternative proposal.
+
+5. Effects
+
+The Authority did not assess or record any expected effect of refusing the fictional service permission.
+
+6. Correction and review
+
+The decision states that a written clarification may be requested, but it gives no time limit and does not explain whether the outcome may be corrected.
+
+7. Disposition
+
+The fictional service permission is refused. The decision is complete as issued and contains no additional reasons or annexes.
