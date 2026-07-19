@@ -6,8 +6,8 @@ SRS Signal is a research prototype for examining whether institutional
 decisions are documented, reconstructable, and auditable, and whether similar
 accountability weaknesses recur across different public institutions.
 
-> We do not ask an AI model to decide whether a system is democratic. We
-> examine whether public power can explain, document, and correct itself.
+> We do not ask whether a system is democratic. We examine whether public
+> power can explain, document, and correct itself.
 
 ## Public demonstration
 
