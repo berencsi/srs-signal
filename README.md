@@ -56,7 +56,10 @@ Copyright © 2026 Béla Berencsi.
 The source code in this repository is licensed under the GNU Affero General
 Public License v3.0 only (`AGPL-3.0-only`). See the [LICENSE](LICENSE) file.
 
-The SRS Signal name and branding, and research publications not contained in
-this repository, are not licensed under the AGPL.
+The SRS Signal name, logos, visual identity, and other branding assets are
+not licensed under the AGPL, and no trademark rights are granted.
+
+Research publications and methodological materials not included in this
+repository remain subject to their own copyright and licensing terms.
 
 SRS Signal is part of the Self-Reflective Society Research Programme.
